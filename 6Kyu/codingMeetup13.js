@@ -36,7 +36,6 @@ function isLanguageDiverse(list) {
       : pyton++
   );
   let arr = [js, ruby, pyton];
-  let diff = Math.max(...arr) - Math.min(...arr);
   if (Math.max(...arr) > 2 * Math.min(...arr)) {
     return false;
   } else {
