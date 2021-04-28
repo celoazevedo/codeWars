@@ -29,3 +29,17 @@ function sabb(s, val, happiness) {
     return "Back to your desk, boy.";
   }
 }
+
+// using nested forEach
+
+// function sabb(x, val, happ){
+//     let pointsGathered = 0
+
+//     x.split("").forEach(element => {
+//         ['s','a','b','t','i','c','l'].forEach(second => {
+//         if (element == second) { ++pointsGathered }
+//       })
+//     })
+
+//     return pointsGathered + val + happ > 22 ? "Sabbatical! Boom!" : "Back to your desk, boy."
+//   }
